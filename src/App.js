@@ -4,7 +4,7 @@ import "./App.css";
 
 const App = () => {
   const [result, setResult] = useState("");
-  
+
   const handleClick = (e) => {
     const operand = ["/", "*", "-", "+"];
     const eValue = e.target.value;
@@ -48,7 +48,7 @@ const App = () => {
   };
   return (
     <div className="App">
-      <h2>Caculator</h2>
+      <h2>Calculator</h2>
       <main className="calculater-container">
         <input
           type="text"

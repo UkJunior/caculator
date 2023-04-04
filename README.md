@@ -1,4 +1,4 @@
-this simple calculator application with basic arithmetic operations.
+this is a simple calculator application with basic arithmetic operations.
 
 The component imports the "useState", "useEffect", and useRef hooks from the React library, as well as a custom CalBody component that handles the display of calculator buttons.
 
